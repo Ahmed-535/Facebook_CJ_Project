@@ -13,7 +13,6 @@ import java.util.concurrent.TimeUnit;
 
 public class Step_Definition {
     public WebDriver driver;
-
     @Given("I open the browser and enter the url")
     public void i_open_the_browser_and_enter_the_url()
     {
@@ -42,7 +41,6 @@ public class Step_Definition {
         Assert.assertEquals(AT,ET);
 //        Thread.sleep(2000);
     }
-
     @Then("close the browser")
     public void close_the_browser() throws InterruptedException {
         Thread.sleep(2000);
