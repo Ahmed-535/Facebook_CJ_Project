@@ -12,36 +12,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Step_Definition {
-    //    public WebDriver driver;
-//    @Given("I open the browser and enter the url")
-//    public void i_open_the_browser_and_enter_the_url() throws InterruptedException
-//    {
-//        WebDriverManager.chromedriver().setup();
-//        driver = new ChromeDriver();
-//        driver.manage().window().maximize();
-//        driver.get("https://www.facebook.com");
-//        Thread.sleep(2000);
-//    }
-//    @When("I will enter the un and pwd click on login btn")
-//    public void i_will_enter_the_un_and_pwd_click_on_login_btn()
-//    {
-//        driver.findElement(By.xpath("//input[@name='email']")).sendKeys("Abc");
-//        driver.findElement(By.xpath("//input[@name='pass']")).sendKeys("xyz");
-//        driver.findElement(By.xpath("//button[@name='login']")).click();
-//    }
-//    @Then("Check for homepage")
-//    public void check_for_homepage()
-//    {
-//        String AT="Log in to Facebook";
-//        String ET=driver.getTitle();
-//        Assert.assertEquals(AT,ET);
-//    }
-//    @Then("Close the browser")
-//    public void close_the_browser() throws InterruptedException
-//    {
-//        Thread.sleep(3000);
-//        driver.close();
-//    }
     public WebDriver driver;
 
     @Given("I open the browser and enter the url")
